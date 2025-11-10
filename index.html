@@ -85,10 +85,13 @@
       border-radius: 999px;
       font-weight: 600;
       text-decoration: none;
-      transition: 0.3s;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 194, 255, 0);
     }
 
     .hero a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 194, 255, 0.3);
       background: #00a8dc;
     }
 
@@ -136,6 +139,24 @@
       margin-bottom: 0.5rem;
     }
 
+    #contact a {
+      background: #00c2ff;
+      color: #0d0d0d;
+      padding: 0.9rem 1.8rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 194, 255, 0);
+    }
+
+    #contact a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 194, 255, 0.3);
+      background: #00a8dc;
+    }
+
     footer {
       text-align: center;
       padding: 2rem;
@@ -156,19 +177,11 @@
     </nav>
   </header>
 
- <section id="contact">
-  <h3>Book a Free Call</h3>
-  <p style="margin-bottom: 1.5rem;">
-    Let’s find out what you can automate in your accounting practice.
-  </p>
-  <a href="https://calendly.com/" target="_blank"
-    style="background:#00c2ff;color:#0d0d0d;padding:0.9rem 1.8rem;
-           border-radius:999px;text-decoration:none;font-weight:600;
-           display:inline-block;">
-    Schedule a Call
-  </a>
-</section>
-
+  <section class="hero">
+    <h2>Smart Systems for Busy Accountants</h2>
+    <p>We build Zapier-powered automations that streamline client onboarding, document collection, and everyday workflows for modern accounting professionals.</p>
+    <a href="https://client-onboarding-system-736dbd.zapier.app/document-collection" target="_blank">Get Started</a>
+  </section>
 
   <section id="benefits">
     <h3>Why Choose Us</h3>
@@ -190,8 +203,10 @@
 
   <section id="contact">
     <h3>Book a Free Call</h3>
-    <p>Let’s find out what you can automate in your accounting practice.</p>
-    <a href="https://calendly.com/" target="_blank" style="margin-top:1rem;background:#00c2ff;color:#0d0d0d;padding:0.8rem 1.5rem;border-radius:999px;text-decoration:none;font-weight:600;">Schedule a Call</a>
+    <p style="margin-bottom: 1.5rem;">
+      Let’s find out what you can automate in your accounting practice.
+    </p>
+    <a href="https://calendly.com/" target="_blank">Schedule a Call</a>
   </section>
 
   <footer>
